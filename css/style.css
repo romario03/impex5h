@@ -2367,6 +2367,18 @@ fieldset:disabled a.btn {
   pointer-events: none;
 }
 
+.btn-secundary{
+  color: #fff;
+  margin-left: 10px;
+  background-color: #FFDC19;
+  border-radius: 5px;
+  border-color: #fff;
+}
+
+.btn-secundary:hover{
+  background-color: #0df053;
+}
+
 .btn-primary {
   color: #fff;
   margin-left: 10px;
@@ -9790,9 +9802,24 @@ background-repeat: repeat;
   transition: all 1s;
 }
 
-.img2:hover {
-  opacity: .3;
+.img3:hover {
+  opacity: 1;
   transform: scale(.9,.9);
+}
+
+.btn_wsp{
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  left: 30px;
+  background: #0df053;
+  border-radius: 30px 30px 30px 0;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
 }
 
 
