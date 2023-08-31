@@ -610,6 +610,9 @@ pre code {
   .container, .container-sm {
     max-width: 540px;
   }
+  .section__gallery{
+    justify-items: auto;
+  }
 }
 
 @media (min-width: 768px) {
@@ -9782,6 +9785,8 @@ background-repeat: repeat;
   justify-content: center;
   max-width: 1000px;
 }
+
+
 
 .img3{
   background-color: #fff;
