@@ -160,18 +160,18 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="bg-primary py-5 px-4 px-sm-5">
-                        <form class="py-5">
+                        <form action="https://formsubmit.co/53d436e4c020c01435639fa426a0ed83" method="POST" class="py-5">
                             <div class="form-group">
-                                <input type="text" class="form-control border-0 p-4" placeholder="NOMBRE" required="required" />
+                                <input type="text" name="name" class="form-control border-0 p-4" placeholder="NOMBRE" required="required" />
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control border-0 p-4" placeholder="CORREO" required="required" />
+                                <input type="email" name="email" class="form-control border-0 p-4" placeholder="CORREO" required="required" />
                             </div>
                             <div class="form-group">
-                                <input type="cel" class="form-control border-0 p-4" placeholder="CELULAR" required="required" />
+                                <input type="cel"  name="phone" class="form-control border-0 p-4" placeholder="CELULAR" required="required" />
                             </div>
                             <div class="form-group">
-                                <textarea type="texto" class="form-control border-0 p-4" placeholder="INGRESAR TEXTO" required="required"></textarea>
+                                <textarea type="texto" name="subject" class="form-control border-0 p-4" placeholder="INGRESAR TEXTO" required="required"></textarea>
                             </div>
                             <!--
                             <div class="form-group">
@@ -186,6 +186,8 @@
                             <div>
                                 <button class="btn btn-dark btn-block border-0 py-3" type="submit">Obtener Cotización</button>
                             </div>
+                            <input type="hidden" name="_next" value="https://romario03.github.io/impex5h/contact.html">
+                            <input type="hidden" name="_captcha" value="false">
                         </form>
                     </div>
                 </div>
@@ -526,9 +528,6 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white py-0" href="#">Preguntas Frecuentes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white py-0" href="#">Ayuda</a>
                     </li>
                 </ul>
             </div>

@@ -74,11 +74,11 @@
     <!-- Header Start -->
     <div class="jumbotron jumbotron-fluid mb-5">
         <div class="container text-center py-5">
-            <h1 class="text-white display-3">Contact</h1>
+            <h1 class="text-white display-3">Contacto</h1>
             <div class="d-inline-flex align-items-center text-white">
-                <p class="m-0"><a class="text-white" href="">Home</a></p>
+                <p class="m-0"><a class="text-white" href="">Inicio</a></p>
                 <i class="fa fa-circle px-3"></i>
-                <p class="m-0">Contact</p>
+                <p class="m-0">Contacto</p>
             </div>
         </div>
     </div>
@@ -100,31 +100,33 @@
                     <h1 class="mb-4">Contacto Para Cualquier Consulta</h1>
                     <div class="contact-form bg-secondary" style="padding: 30px;">
                         <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                        <form action="https://formsubmit.co/53d436e4c020c01435639fa426a0ed83" method="POST" name="" id="" novalidate="">
                             <div class="control-group">
-                                <input type="text" class="form-control border-0 p-4" id="name" placeholder="Nombre Completo"
+                                <input type="text" class="form-control border-0 p-4" name="name" placeholder="Nombre Completo"
                                     required="required" data-validation-required-message="Please enter your name" />
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="control-group">
-                                <input type="email" class="form-control border-0 p-4" id="email" placeholder="Correo Electronico"
+                                <input type="email" class="form-control border-0 p-4" name="email" placeholder="Correo Electronico"
                                     required="required" data-validation-required-message="Please enter your email" />
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="control-group">
-                                <input type="text" class="form-control border-0 p-4" id="subject" placeholder="Asunto"
+                                <input type="text" class="form-control border-0 p-4" name="subject" placeholder="Asunto"
                                     required="required" data-validation-required-message="Please enter a subject" />
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="control-group">
-                                <textarea class="form-control border-0 py-3 px-4" rows="3" id="message" placeholder="Mensaje"
+                                <textarea class="form-control border-0 py-3 px-4" rows="3" name="message" placeholder="Mensaje"
                                     required="required"
                                     data-validation-required-message="Please enter your message"></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div>
-                                <button class="btn btn-primary py-3 px-4" type="submit" id="sendMessageButton">Enviar Mensaje</button>
+                                <button class="btn btn-primary py-3 px-4" type="submit" id="">Enviar Mensaje</button>
                             </div>
+                            <input type="hidden" name="_next" value="https://romario03.github.io/impex5h/contact.html">
+                            <input type="hidden" name="_captcha" value="false">
                         </form>
                     </div>
                 </div>
